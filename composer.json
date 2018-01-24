@@ -1,0 +1,23 @@
+{
+    "name": "jobscooper/pyJobMatcher",
+    "type": "library",
+    "description": "Submodule for python components in php-jobscooper",
+    "homepage": "http://github.com/jobscooper/pyJobMatcher",
+    "authors": [
+        {
+            "name": "Bryan Selner",
+            "email": "dev@recoilvelocity.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "monolog/monolog": "1.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PyJobMatcher\\": "src/PyJobMatcher"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
