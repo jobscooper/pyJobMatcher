@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PyJobMatcher\\": "src/PyJobMatcher"
+            "JobScooper\\Utils\\": "src/"
         }
     },
     "minimum-stability": "dev",
